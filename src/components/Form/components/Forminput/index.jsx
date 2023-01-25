@@ -3,7 +3,7 @@ import { Input } from "@mantine/core";
 export default function Forminputs(props) {
   return (
     <div className = 'form-input'>
-      <label htmlFor="firstName">{props.title}</label>
+      <label htmlFor={props.Targetkey}>{props.title}</label>
       <Input
         id={props.Targetkey}
         name={props.Targetkey}
